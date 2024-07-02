@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   authors: { name: "yoshikouki", url: "https://yoshikouki.com/" },
   icons: [
     {
-      url: "/logo.svg",
+      url: "/logo.webp",
       sizes: "1200x1200",
-      type: "image/svg+xml",
+      type: "image/webp",
       color: "#FFFFFF",
       fetchPriority: "high",
     },
@@ -33,12 +33,18 @@ export const metadata: Metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    url: "https://honon.app/",
+    url: "/",
     title,
     description,
     images: [
       {
-        url: "https://honon.app/logo.svg",
+        url: "/favicon",
+        alt: title,
+        width: 256,
+        height: 256,
+      },
+      {
+        url: "/logo.webp",
         alt: title,
         width: 1200,
         height: 1200,
@@ -51,7 +57,7 @@ export const metadata: Metadata = {
     creator: "@yoshikouki_",
     title,
     description,
-    images: "https://honon.app/logo.svg",
+    images: "/logo.webp",
   },
 };
 

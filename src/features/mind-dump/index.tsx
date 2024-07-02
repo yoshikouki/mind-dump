@@ -1,16 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { emotionValence, emotions } from "./emotion";
+import { emotionTone, emotions } from "./emotion";
 
 export const MindDump = () => {
   return (
     <section className="flex min-h-svh w-full max-w-sm flex-col justify-center gap-4 p-4">
       <h2>今どのように感じていますか</h2>
-      {emotionValence.map((valence) => (
-        <div key={valence} className="w-full space-y-2">
-          <h3>{valence}</h3>
+      {emotionTone.map((tone) => (
+        <div key={tone} className="w-full space-y-2">
+          <h3>{tone}</h3>
           <div className="grid w-full grid-cols-2 gap-2">
             {emotions
-              .filter((emotion) => emotion.valence === valence)
+              .filter((emotion) => emotion.tone === tone)
               .map((emotion) => (
                 <Button
                   key={emotion.key}

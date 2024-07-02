@@ -1,7 +1,7 @@
 export const emotionValence = [
-  "positive",
-  "neutral",
   "negative",
+  "neutral",
+  "positive",
   "ambiguous",
 ] as const;
 export type EmotionValence = (typeof emotionValence)[number];

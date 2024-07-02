@@ -11,8 +11,11 @@ export const MindDump = () => {
             key={emotion.key}
             variant="secondary"
             size="sm"
-            className="animate-fade-in"
+            className="flex animate-fade-in items-center gap-1"
           >
+            <span role="img" aria-label={emotion.label}>
+              {emotion.emoji}
+            </span>
             {emotion.label}
           </Button>
         ))}

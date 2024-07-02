@@ -12,8 +12,14 @@ export const Header = () => {
           href={url.root}
           className="flex items-center justify-center gap-2"
         >
-          <Image src={Logo} loading="eager" alt="service logo" height={48} />
-          <h1 className="font-black text-6xl">Mind Dump</h1>
+          <Image
+            src={Logo}
+            loading="eager"
+            alt="service logo"
+            height={28}
+            className="w-auto"
+          />
+          <h1 className="font-black text-2xl">Mind Dump</h1>
         </Link>
         <ThemeToggle />
       </div>

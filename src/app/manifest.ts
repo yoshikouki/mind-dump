@@ -3,8 +3,8 @@ import { description } from "./metadata";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "honon",
-    short_name: "honon",
+    name: "Mind Dump",
+    short_name: "Mind Dump",
     description,
     start_url: "/",
     display: "standalone",

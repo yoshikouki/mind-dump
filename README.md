@@ -1,6 +1,6 @@
-# honon
+# Mind Dump
 
-Template for Next.js + Hono
+Mind Dump is awesome app for human!
 
 ## Getting Started
 

@@ -3,7 +3,7 @@ import { emotionTone, emotions } from "./emotion";
 
 export const MindDump = () => {
   return (
-    <section className="flex min-h-svh w-full max-w-sm flex-col justify-center gap-4">
+    <section className="flex min-h-svh w-full flex-col justify-center gap-4">
       <h2 className="text-center font-bold text-xl">
         今どのように感じていますか
       </h2>

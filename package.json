@@ -29,7 +29,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.3",
+    "@biomejs/biome": "1.9.2",
     "@flydotio/dockerfile": "^0.5.7",
     "@happy-dom/global-registrator": "^14.12.3",
     "@testing-library/react": "^16.0.0",

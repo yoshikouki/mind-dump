@@ -23,7 +23,7 @@
     "next-themes": "^0.3.0",
     "react": "^19.0.0-rc-58af67a8f8-20240628",
     "react-dom": "^19.0.0-rc-58af67a8f8-20240628",
-    "satori": "^0.10.13",
+    "satori": "^0.11.2",
     "swr": "^2.2.5",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
